@@ -13,7 +13,7 @@ export default function Navbar () {
     ];
 
     return (
-        <nav className="max-w-[1800] mx-auto px-12 pt-5 w-auto sticky top-0">
+        <nav className="w-full max-w-[1800] mx-auto px-12 pt-5 fixed top-0">
             <div className="relative flex">
                 <div className="h-12 px-5 bg-gradient-to-tl from-[#00000080] via-[#56565640] to-[#d0d0d080] flex flex-row items-center justify-center gap-2 border rounded-full cursor-pointer hover:shadow-[0_0_15px_#ffffff] transition duration-500">
                     <div className="w-1.5 h-1.5 bg-emerald-400 rounded-full" />
