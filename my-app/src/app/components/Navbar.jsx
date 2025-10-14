@@ -21,7 +21,7 @@ export default function Navbar () {
                 </div>
                 <div className="absolute right-0 grid grid-rows-[repeat(2, auto)] border rounded-full">
                     <button 
-                        className="w-12 h-12 bg-linear-to-tl from-[#00000080] via-[#56565640] to-[#d0d0d080] backdrop-blur-lg flex flex items-center justify-center border rounded-full cursor-pointer hover:shadow-[0_0_15px_#ffffff] transition duration-500"
+                        className="w-12 h-12 bg-linear-to-tl from-[#00000080] via-[#56565640] to-[#d0d0d080] backdrop-blur-lg flex items-center justify-center border rounded-full cursor-pointer hover:shadow-[0_0_15px_#ffffff] transition duration-500"
                         onClick={() => setMenuOpen(!openMenu)}
                     >
                         <Image 
