@@ -1,7 +1,7 @@
 export default function Hero() {
     return(
         <div className="w-full max-w-[1440px] px-12 h-screen mx-auto flex items-center justify-center flex-col">
-            <div className="w-fit">
+            <div className="w-[90%]">
                 <p className="text-9xl text-[#a5a5a5]"><span className="font-bold text-white">My </span>Own</p>
                 <p className="text-9xl text-[#a5a5a5]">Portfolio <span className="font-bold text-white">Website</span></p>
                 <p className="mb-3 text-2xl">Know more about me, click here to download my CV</p>
