@@ -1,18 +1,15 @@
 export default function Hero() {
     return(
-        <section className="mx-auto h-screen flex items-center justify-center">
-            <div className="flex flex-col">
-                <div className="flex items-center gap-5">
-                    <p className="text-6xl text-[#a5a5a5]">Welcome To</p>
-                    <div className="px-4 h-14 border border-[#a5a5a5] rounded-full shadow-2xl flex items-center gap-2.5 bg-[#e6e6e6]">
-                        <div className="h-2.5 w-2.5 rounded-full bg-green-500" />
-                        <p>Active looking for a job</p>
-                    </div>
+        <section className="mx-auto h-screen max-w-[1440px] flex items-center justify-center">
+            <div className="w-[90%] flex flex-col items-center gap-6">
+                <div className="px-4 mb-2.5 h-14 w-fit border border-[#a5a5a5] rounded-full shadow-2xl flex items-center gap-2.5 bg-[#e6e6e6]">
+                    <div className="h-2.5 w-2.5 rounded-full bg-green-500" />
+                    <p>Active looking for a job</p>
                 </div>
-                <p className="mb-2.5 text-8xl">My Own Portfolio Webiste</p>
-                <p className="mb-2.5">Embracing new challenges with adaptability. Because nothing is too difficult when you're ready to grow.</p>
-                <div className="p-1.5 w-fit rounded-full bg-[#e6e6e6]">
-                    <button className="px-4 h-14 w-fit rounded-full bg-[#000000] shadow-2xs flex items-center gap-2 cursor-pointer">
+                <p className="text-8xl text-[#000000] text-center">Welcome To <br /> My Own Portfolio Webiste</p>
+                <p className="mb-2.5 text-2xl text-center">Embracing every new challenge with adaptability and determination, believing that no obstacle is too great when one is willing to grow, learn, and evolve beyond limits.</p>
+                <div className="p-1.5 w-fit rounded-xl bg-[#e6e6e6]">
+                    <button className="px-4 h-14 w-fit rounded-xl bg-[#000000] shadow-2xs flex items-center gap-2.5 cursor-pointer">
                         <div className="h-10 w-10 rounded-full bg-[#e6e6e6]">
 
                         </div>
