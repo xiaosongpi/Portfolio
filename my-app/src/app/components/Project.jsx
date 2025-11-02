@@ -1,27 +1,47 @@
 export default function Project() {
-    return(
-        <section className="mx-auto my-40 h-auto max-w-[1440px] flex items-center justify-center">
-            <div className="w-[90%] grid grid-cols-3 gap-5">
-                <div className="p-3.5 rounded-2xl bg-[#e6e6e6] flex flex-col gap-2.5 shadow-2xl">
-                    <div className="w-full aspect-square bg-[#ffffff] rounded-xl" /> 
-                    <div>
-                        <p className="text-2xl">Project 1</p>
-                        <p className="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, cumque sapiente! Accusantium architecto officiis dolor ipsum exercitationem nostrum suscipit deleniti tenetur dolores debitis, cumque doloremque molestias repellendus minima porro quaerat?</p>
+    return (
+        <section className="mx-auto my-40 max-w-[1440px] flex flex-col items-center justify-center">
+            <p className="mb-10 text-6xl">What Already Being Build</p>
+            <div className="w-[90%] grid grid-cols-2 gap-10">
+                <div className="flex flex-col gap-5">
+                    <div className="aspect-video rounded-2xl bg-[#e6e6e6] shadow-2xl"></div>
+                    <div className="flex justify-between">
+                        <p className="text-4xl">Project Name</p>
+                        <div className="px-5 h-full bg-[#333333] rounded-full flex items-center justify-center">
+                            <p className="text-[#ffffff]">Hi</p>
+                        </div>
                     </div>
+                    <p className="text-2xl text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, iusto voluptatem placeat velit voluptate explicabo totam veniam.</p>
                 </div>
-                <div className="p-3.5 rounded-2xl bg-[#e6e6e6] flex flex-col gap-2.5 shadow-2xl">
-                    <div className="w-full aspect-square bg-[#ffffff] rounded-xl" /> 
-                    <div>
-                        <p className="text-2xl">Project 2</p>
-                        <p className="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, cumque sapiente! Accusantium architecto officiis dolor ipsum exercitationem nostrum suscipit deleniti tenetur dolores debitis, cumque doloremque molestias repellendus minima porro quaerat?</p>
+                <div className="flex flex-col gap-5">
+                    <div className="aspect-video rounded-2xl bg-[#e6e6e6] shadow-2xl"></div>
+                    <div className="flex justify-between">
+                        <p className="text-4xl">Project Name</p>
+                        <div className="px-5 h-full bg-[#333333] rounded-full flex items-center justify-center">
+                            <p className="text-[#ffffff]">Website</p>
+                        </div>
                     </div>
+                    <p className="text-2xl text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat asperiores, officia maxime esse nesciunt temporibus sint ipsa.</p>
                 </div>
-                <div className="p-3.5 rounded-2xl bg-[#e6e6e6] flex flex-col gap-2.5 shadow-2xl">
-                    <div className="w-full aspect-square bg-[#ffffff] rounded-xl" />  
-                    <div>
-                        <p className="text-2xl">Project 3</p>
-                        <p className="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, cumque sapiente! Accusantium architecto officiis dolor ipsum exercitationem nostrum suscipit deleniti tenetur dolores debitis, cumque doloremque molestias repellendus minima porro quaerat?</p>
+                <div className="flex flex-col gap-5">
+                    <div className="aspect-video rounded-2xl bg-[#e6e6e6] shadow-2xl"></div>
+                    <div className="flex justify-between">
+                        <p className="text-4xl">Project Name</p>
+                        <div className="px-5 h-full bg-[#333333] rounded-full flex items-center justify-center">
+                            <p className="text-[#ffffff]">Hi</p>
+                        </div>
                     </div>
+                    <p className="text-2xl text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, iusto voluptatem placeat velit voluptate explicabo totam veniam.</p>
+                </div>
+                <div className="flex flex-col gap-5">
+                    <div className="aspect-video rounded-2xl bg-[#e6e6e6] shadow-2xl"></div>
+                    <div className="flex justify-between">
+                        <p className="text-4xl">Project Name</p>
+                        <div className="px-5 h-full bg-[#333333] rounded-full flex items-center justify-center">
+                            <p className="text-[#ffffff]">Hi</p>
+                        </div>
+                    </div>
+                    <p className="text-2xl text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat asperiores, officia maxime esse nesciunt temporibus sint ipsa.</p>
                 </div>
             </div>
         </section>
