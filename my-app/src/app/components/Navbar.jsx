@@ -19,7 +19,7 @@ export default function Navbar () {
                     <div className="h-10 w-10 rounded-full bg-[#333333]" />
                     <p className="text-[1.2rem] font-semibold">My portfolio</p>
                 </div>
-                <div className="h-16 flex items-center justify-center">
+                <div className="h-16 px-2.5 rounded-full backdrop-blur-sm flex items-center justify-center">
                     <ul className="flex items-center gap-5">
                         <li className="text-[1rem]">
                             <a href="">About</a>
