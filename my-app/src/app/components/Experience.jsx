@@ -2,7 +2,7 @@ export default function Experience() {
     return (
         <div className="h-auto w-[90%] max-w-[1440px] py-60 mx-auto flex flex-col items-center justify-center">
             <p className="text-8xl mb-10">What I Experience</p>
-            <div className="h-auto w-[100%] rounded-3xl bg-[rgba(255,255,255,0.3)] backdrop-blur-2xl grid grid-cols-2 place-items-center">
+            <div className="h-auto w-[100%] rounded-3xl bg-[rgba(255,255,255,0.3)] backdrop-blur-2xl grid grid-cols-2 place-items-center -z-10">
                 <div className="p-5 flex flex-col gap-2.5">
                     <div className="flex items-center gap-2.5">
                         <div className="w-10 h-10 bg-[#333333] rounded-full" />
