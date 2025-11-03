@@ -7,8 +7,16 @@ export default function Project() {
                     <div className="aspect-video rounded-2xl bg-[#e6e6e6] shadow-2xl"></div>
                     <div className="flex justify-between">
                         <p className="text-4xl">Project Name</p>
-                        <div className="px-5 h-full bg-[#333333] rounded-full flex items-center justify-center">
-                            <p className="text-[#ffffff]">Hi</p>
+                        <div className="flex gap-2.5">
+                            <div className="px-5 h-full bg-[#333333] rounded-full flex items-center justify-center">
+                                <p className="text-[#ffffff]">Portfolio</p>
+                            </div>
+                            <div className="px-5 h-full bg-[#333333] rounded-full flex items-center justify-center">
+                                <p className="text-[#ffffff]">Tailwind</p>
+                            </div>
+                            <div className="px-5 h-full bg-[#333333] rounded-full flex items-center justify-center">
+                                <p className="text-[#ffffff]">Next.js</p>
+                            </div>
                         </div>
                     </div>
                     <p className="text-2xl text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, iusto voluptatem placeat velit voluptate explicabo totam veniam.</p>
@@ -17,8 +25,13 @@ export default function Project() {
                     <div className="aspect-video rounded-2xl bg-[#e6e6e6] shadow-2xl"></div>
                     <div className="flex justify-between">
                         <p className="text-4xl">Project Name</p>
-                        <div className="px-5 h-full bg-[#333333] rounded-full flex items-center justify-center">
-                            <p className="text-[#ffffff]">Website</p>
+                        <div className="flex gap-2.5">
+                            <div className="px-5 h-full bg-[#333333] rounded-full flex items-center justify-center">
+                                <p className="text-[#ffffff]">AI</p>
+                            </div>
+                            <div className="px-5 h-full bg-[#333333] rounded-full flex items-center justify-center">
+                                <p className="text-[#ffffff]">React</p>
+                            </div>
                         </div>
                     </div>
                     <p className="text-2xl text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat asperiores, officia maxime esse nesciunt temporibus sint ipsa.</p>
@@ -27,8 +40,13 @@ export default function Project() {
                     <div className="aspect-video rounded-2xl bg-[#e6e6e6] shadow-2xl"></div>
                     <div className="flex justify-between">
                         <p className="text-4xl">Project Name</p>
-                        <div className="px-5 h-full bg-[#333333] rounded-full flex items-center justify-center">
-                            <p className="text-[#ffffff]">Hi</p>
+                        <div className="flex gap-2.5">
+                            <div className="px-5 h-full bg-[#333333] rounded-full flex items-center justify-center">
+                                <p className="text-[#ffffff]">AI</p>
+                            </div>
+                            <div className="px-5 h-full bg-[#333333] rounded-full flex items-center justify-center">
+                                <p className="text-[#ffffff]">Website</p>
+                            </div>
                         </div>
                     </div>
                     <p className="text-2xl text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, iusto voluptatem placeat velit voluptate explicabo totam veniam.</p>
@@ -37,8 +55,13 @@ export default function Project() {
                     <div className="aspect-video rounded-2xl bg-[#e6e6e6] shadow-2xl"></div>
                     <div className="flex justify-between">
                         <p className="text-4xl">Project Name</p>
-                        <div className="px-5 h-full bg-[#333333] rounded-full flex items-center justify-center">
-                            <p className="text-[#ffffff]">Hi</p>
+                        <div className="flex gap-2.5">
+                            <div className="px-5 h-full bg-[#333333] rounded-full flex items-center justify-center">
+                                <p className="text-[#ffffff]">AI</p>
+                            </div>
+                            <div className="px-5 h-full bg-[#333333] rounded-full flex items-center justify-center">
+                                <p className="text-[#ffffff]">Website</p>
+                            </div>
                         </div>
                     </div>
                     <p className="text-2xl text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat asperiores, officia maxime esse nesciunt temporibus sint ipsa.</p>
